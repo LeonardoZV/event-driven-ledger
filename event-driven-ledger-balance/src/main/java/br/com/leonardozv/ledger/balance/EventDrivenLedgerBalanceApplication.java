@@ -1,4 +1,4 @@
-package br.com.leonardozv.ledger;
+package br.com.leonardozv.ledger.balance;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package br.com.leonardozv.eventdrivenledgertransaction;
+package br.com.leonardozv.ledger.transaction;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
