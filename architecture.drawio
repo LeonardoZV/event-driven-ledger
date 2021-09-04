@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T12:11:29.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="TP5FtNdN62GbowIN4X_T" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T12:16:08.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="iKAVezngEm1K9-83rbMY" version="15.0.6" type="github">
   <diagram id="sSMh7Mj8uq1PbPDicRrX" name="Page-1">
     <mxGraphModel dx="3769" dy="3460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CrSMlSoLfHYtYc_QHHbr-195" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&amp;nbsp; CENÁRIO 2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="CrSMlSoLfHYtYc_QHHbr-195" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&amp;nbsp; CENÁRIO 3&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1640" y="-520" width="1680" height="400" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-165" value="&lt;b&gt;&amp;nbsp; CENÁRIO 1 - ALTA CONCORRÊNCIA NO BANCO, PERDENDO PERFORMANCE POR TER DE REFAZER OS CÁLCULOS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;verticalAlign=top;" vertex="1" parent="1">
@@ -241,10 +241,10 @@
         <mxCell id="4qVqTRqzKTblFJhMyqPV-192" value="&lt;b&gt;AWS DynamoDB&lt;/b&gt;&lt;br&gt;AnalyticalAccountingDB&lt;br&gt;AccountingAccounts" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="1" vertex="1">
           <mxGeometry x="2141.5" y="1479.5" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="4qVqTRqzKTblFJhMyqPV-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#00FF00;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2LelLOpR1p7l8fURc_7i-76" target="ztVvOb2c4JuOCDaLwrAS-1208" edge="1">
+        <mxCell id="4qVqTRqzKTblFJhMyqPV-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#00FF00;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="CrSMlSoLfHYtYc_QHHbr-196" target="ztVvOb2c4JuOCDaLwrAS-1208" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1529" y="529" as="targetPoint" />
-            <mxPoint x="1960" y="529" as="sourcePoint" />
+            <mxPoint x="1938" y="528.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4qVqTRqzKTblFJhMyqPV-208" value="EVERYDAY 1:00 AM" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" parent="1" vertex="1">
@@ -1029,9 +1029,9 @@
         <mxCell id="wLyvYfdeoNj-BMRv1wWr-20" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntrySumarizationService" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" parent="1" vertex="1">
           <mxGeometry x="1319" y="489.5" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="2LelLOpR1p7l8fURc_7i-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2LelLOpR1p7l8fURc_7i-3" target="2LelLOpR1p7l8fURc_7i-76" edge="1">
+        <mxCell id="2LelLOpR1p7l8fURc_7i-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2LelLOpR1p7l8fURc_7i-3" target="CrSMlSoLfHYtYc_QHHbr-196" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1810" y="529" as="targetPoint" />
+            <mxPoint x="1860" y="528.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2LelLOpR1p7l8fURc_7i-3" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-sumarized&lt;br&gt;account_id as key&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" parent="1" vertex="1">
@@ -1052,9 +1052,6 @@
         </mxCell>
         <mxCell id="2LelLOpR1p7l8fURc_7i-65" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntryService" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" parent="1" vertex="1">
           <mxGeometry x="810" y="300" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="2LelLOpR1p7l8fURc_7i-76" value="&lt;b&gt;AWS EMR&lt;br&gt;&lt;/b&gt;Spark Streaming&lt;br&gt;ProjectAccountingDailyBalanceJob" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.emr;" parent="1" vertex="1">
-          <mxGeometry x="1860" y="489.4999999999999" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="2LelLOpR1p7l8fURc_7i-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="2LelLOpR1p7l8fURc_7i-80" target="MRXJrDMqa9VZ29TLoG-b-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1380,6 +1377,9 @@
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-193" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
           <mxGeometry x="2119" y="-730" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="CrSMlSoLfHYtYc_QHHbr-196" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;ProjectAccountingDailyBalanceService" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="489.5" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
