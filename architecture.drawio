@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T12:07:01.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="f8ryLfjkmAF0wA3ZcXZ8" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T12:09:42.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="OHU267_hZ5HCvhSweX-7" version="15.0.6" type="github">
   <diagram id="sSMh7Mj8uq1PbPDicRrX" name="Page-1">
     <mxGraphModel dx="2508" dy="2979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1168,7 +1168,7 @@
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-112" target="CrSMlSoLfHYtYc_QHHbr-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CrSMlSoLfHYtYc_QHHbr-134" value="Conta: 1, Movimentação: -400&lt;br&gt;Conta: 1, Movimentação: -200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-126">
+        <mxCell id="CrSMlSoLfHYtYc_QHHbr-134" value="Conta: 1, Movimentação: -400&lt;br&gt;Conta: 1, Movimentação: -300" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-126">
           <mxGeometry x="-0.1755" y="-1" relative="1" as="geometry">
             <mxPoint x="21" y="-21" as="offset" />
           </mxGeometry>
@@ -1179,7 +1179,7 @@
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-113" target="CrSMlSoLfHYtYc_QHHbr-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CrSMlSoLfHYtYc_QHHbr-135" value="Conta: 3, Movimentação: -300&lt;br&gt;Conta: 3, Movimentação: -500" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-129">
+        <mxCell id="CrSMlSoLfHYtYc_QHHbr-135" value="Conta: 3, Movimentação: -200&lt;br&gt;Conta: 3, Movimentação: -500" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-129">
           <mxGeometry x="-0.0681" y="2" relative="1" as="geometry">
             <mxPoint x="9" y="-18" as="offset" />
           </mxGeometry>
@@ -1196,7 +1196,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CrSMlSoLfHYtYc_QHHbr-136" value="Conta: 1, Movimentação: -600" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-131">
+        <mxCell id="CrSMlSoLfHYtYc_QHHbr-136" value="Conta: 1, Movimentação: -700" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-131">
           <mxGeometry x="0.045" y="2" relative="1" as="geometry">
             <mxPoint x="-53" y="-16" as="offset" />
           </mxGeometry>
@@ -1217,7 +1217,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CrSMlSoLfHYtYc_QHHbr-138" value="Conta: 3, Movimentação: -800" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-133">
+        <mxCell id="CrSMlSoLfHYtYc_QHHbr-138" value="Conta: 3, Movimentação: -700" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CrSMlSoLfHYtYc_QHHbr-133">
           <mxGeometry x="0.1373" y="-2" relative="1" as="geometry">
             <mxPoint x="-78" y="-20" as="offset" />
           </mxGeometry>
