@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T12:38:47.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="psSWW7IsJ-eN40A0FS4e" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T12:44:03.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="BjIzfTD_MCRAfwHTfz-E" version="15.0.6" type="github">
   <diagram id="sSMh7Mj8uq1PbPDicRrX" name="Page-1">
-    <mxGraphModel dx="2856" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3769" dy="3460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-195" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&amp;nbsp; CENÁRIO 3&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="-520" width="1680" height="400" as="geometry" />
+          <mxGeometry x="-760" y="-1400" width="1680" height="400" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-165" value="&lt;b&gt;&amp;nbsp; CENÁRIO 1 - ALTA CONCORRÊNCIA NO BANCO, PERDENDO PERFORMANCE POR TER DE REFAZER OS CÁLCULOS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="-1400" width="960" height="400" as="geometry" />
+          <mxGeometry x="-760" y="-2280" width="960" height="400" as="geometry" />
         </mxCell>
         <mxCell id="ztVvOb2c4JuOCDaLwrAS-1193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UU9deluZrK-pCLJk1Hoc-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1088,7 +1088,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-100" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-0&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="-430" width="60" height="60" as="geometry" />
+          <mxGeometry x="-620" y="-1310" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-101" target="CrSMlSoLfHYtYc_QHHbr-103">
           <mxGeometry relative="1" as="geometry" />
@@ -1099,13 +1099,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-101" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-1&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="-260" width="60" height="60" as="geometry" />
+          <mxGeometry x="-620" y="-1140" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-102" target="CrSMlSoLfHYtYc_QHHbr-112">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2240" y="-410" />
-              <mxPoint x="2240" y="-410" />
+              <mxPoint x="-160" y="-1290" />
+              <mxPoint x="-160" y="-1290" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1117,8 +1117,8 @@
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-102" target="CrSMlSoLfHYtYc_QHHbr-113">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2410" y="-380" />
-              <mxPoint x="2410" y="-240" />
+              <mxPoint x="10" y="-1260" />
+              <mxPoint x="10" y="-1120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1128,13 +1128,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-102" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntrySumarizationService-0" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2070" y="-439" width="78" height="78" as="geometry" />
+          <mxGeometry x="-330" y="-1319" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-103" target="CrSMlSoLfHYtYc_QHHbr-112">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2400" y="-240" />
-              <mxPoint x="2400" y="-390" />
+              <mxPoint y="-1120" />
+              <mxPoint y="-1270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1146,8 +1146,8 @@
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-103" target="CrSMlSoLfHYtYc_QHHbr-113">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2330" y="-210" />
-              <mxPoint x="2330" y="-210" />
+              <mxPoint x="-70" y="-1090" />
+              <mxPoint x="-70" y="-1090" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1157,13 +1157,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-103" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntrySumarizationService-1" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2070" y="-269" width="78" height="78" as="geometry" />
+          <mxGeometry x="-330" y="-1149" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-110" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="-460" width="42" height="42" as="geometry" />
+          <mxGeometry x="-270" y="-1340" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-111" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="-290" width="42" height="42" as="geometry" />
+          <mxGeometry x="-270" y="-1170" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-112" target="CrSMlSoLfHYtYc_QHHbr-124">
           <mxGeometry relative="1" as="geometry" />
@@ -1174,7 +1174,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-112" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;contas 1 e 2&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="-430" width="60" height="60" as="geometry" />
+          <mxGeometry x="110" y="-1310" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-113" target="CrSMlSoLfHYtYc_QHHbr-127">
           <mxGeometry relative="1" as="geometry" />
@@ -1185,14 +1185,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-113" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;contas 3 e 4&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="-260" width="60" height="60" as="geometry" />
+          <mxGeometry x="110" y="-1140" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-124" target="CrSMlSoLfHYtYc_QHHbr-130">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3110" y="-400" />
-              <mxPoint x="3110" y="-341" />
-              <mxPoint x="3160" y="-341" />
+              <mxPoint x="710" y="-1280" />
+              <mxPoint x="710" y="-1221" />
+              <mxPoint x="760" y="-1221" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1202,18 +1202,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-124" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;ProjectAccountingDailyBalanceService-0" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2793" y="-439" width="78" height="78" as="geometry" />
+          <mxGeometry x="393" y="-1319" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-125" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2853" y="-460" width="42" height="42" as="geometry" />
+          <mxGeometry x="453" y="-1340" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-127" target="CrSMlSoLfHYtYc_QHHbr-130">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3160" y="-230" as="targetPoint" />
+            <mxPoint x="760" y="-1110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3110" y="-230" />
-              <mxPoint x="3110" y="-302" />
-              <mxPoint x="3160" y="-302" />
+              <mxPoint x="710" y="-1110" />
+              <mxPoint x="710" y="-1182" />
+              <mxPoint x="760" y="-1182" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1223,13 +1223,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-127" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;ProjectAccountingDailyBalanceService-1" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2793" y="-269" width="78" height="78" as="geometry" />
+          <mxGeometry x="393" y="-1149" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-128" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2853" y="-290" width="42" height="42" as="geometry" />
+          <mxGeometry x="453" y="-1170" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-130" value="&lt;b&gt;AWS DynamoDB&lt;/b&gt;&lt;br&gt;AnalyticalAccountingDB&lt;br&gt;AccountingDailyMovement" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="-361" width="78" height="78" as="geometry" />
+          <mxGeometry x="760" y="-1241" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-140" target="CrSMlSoLfHYtYc_QHHbr-144">
           <mxGeometry relative="1" as="geometry" />
@@ -1240,7 +1240,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-140" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-0&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="1762" y="-1310" width="60" height="60" as="geometry" />
+          <mxGeometry x="-638" y="-2190" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-141" target="CrSMlSoLfHYtYc_QHHbr-145">
           <mxGeometry relative="1" as="geometry" />
@@ -1251,17 +1251,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-141" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-1&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="1762" y="-1140" width="60" height="60" as="geometry" />
+          <mxGeometry x="-638" y="-2020" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-142" value="&lt;b&gt;AWS DynamoDB&lt;/b&gt;&lt;br&gt;AnalyticalAccountingDB&lt;br&gt;AccountingDailyMovement" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
-          <mxGeometry x="2452" y="-1227" width="78" height="78" as="geometry" />
+          <mxGeometry x="52" y="-2107" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-144">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2452" y="-1210" as="targetPoint" />
+            <mxPoint x="52" y="-2090" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2382" y="-1300" />
-              <mxPoint x="2382" y="-1210" />
+              <mxPoint x="-18" y="-2180" />
+              <mxPoint x="-18" y="-2090" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1271,13 +1271,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-144" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntrySumarizationService-0" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="-1319" width="78" height="78" as="geometry" />
+          <mxGeometry x="-350" y="-2199" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-145" target="CrSMlSoLfHYtYc_QHHbr-142">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2382" y="-1120" />
-              <mxPoint x="2382" y="-1188" />
+              <mxPoint x="-18" y="-2000" />
+              <mxPoint x="-18" y="-2068" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1289,8 +1289,8 @@
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-145" target="CrSMlSoLfHYtYc_QHHbr-142">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2412" y="-1080" />
-              <mxPoint x="2412" y="-1160" />
+              <mxPoint x="12" y="-1960" />
+              <mxPoint x="12" y="-2040" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1300,19 +1300,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-145" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntrySumarizationService-1" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="-1149" width="78" height="78" as="geometry" />
+          <mxGeometry x="-350" y="-2029" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-146" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="-1340" width="42" height="42" as="geometry" />
+          <mxGeometry x="-290" y="-2220" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-147" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="-1170" width="42" height="42" as="geometry" />
+          <mxGeometry x="-290" y="-2050" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-166" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/exit-delete-remove-close-x-128.png;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="2402" y="-1201.5" width="27" height="27" as="geometry" />
+          <mxGeometry x="2" y="-2081.5" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-176" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&amp;nbsp; CENÁRIO 2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="-960" width="960" height="400" as="geometry" />
+          <mxGeometry x="-760" y="-1840" width="960" height="400" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-179" target="CrSMlSoLfHYtYc_QHHbr-186">
           <mxGeometry relative="1" as="geometry" />
@@ -1323,7 +1323,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-179" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;contas 1 e 2&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="1771" y="-870" width="60" height="60" as="geometry" />
+          <mxGeometry x="-629" y="-1750" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-182" target="CrSMlSoLfHYtYc_QHHbr-191">
           <mxGeometry relative="1" as="geometry" />
@@ -1334,17 +1334,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-182" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;accounting-journal-entry-created-1&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;contas 1 e 2&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="1">
-          <mxGeometry x="1771" y="-700" width="60" height="60" as="geometry" />
+          <mxGeometry x="-629" y="-1580" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-183" value="&lt;b&gt;AWS DynamoDB&lt;/b&gt;&lt;br&gt;AnalyticalAccountingDB&lt;br&gt;AccountingDailyMovement" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
-          <mxGeometry x="2461" y="-787" width="78" height="78" as="geometry" />
+          <mxGeometry x="61" y="-1667" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-186">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2461" y="-769.9999999999998" as="targetPoint" />
+            <mxPoint x="61" y="-1649.9999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2391" y="-840" />
-              <mxPoint x="2391" y="-770" />
+              <mxPoint x="-9" y="-1720" />
+              <mxPoint x="-9" y="-1650" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1354,13 +1354,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-186" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntrySumarizationService-0" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2059" y="-879" width="78" height="78" as="geometry" />
+          <mxGeometry x="-341" y="-1759" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="CrSMlSoLfHYtYc_QHHbr-191" target="CrSMlSoLfHYtYc_QHHbr-183">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2390" y="-670" />
-              <mxPoint x="2390" y="-720" />
+              <mxPoint x="-10" y="-1550" />
+              <mxPoint x="-10" y="-1600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1370,13 +1370,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-191" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;AccountingJournalEntrySumarizationService-1" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
-          <mxGeometry x="2059" y="-709" width="78" height="78" as="geometry" />
+          <mxGeometry x="-341" y="-1589" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-192" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2119" y="-900" width="42" height="42" as="geometry" />
+          <mxGeometry x="-281" y="-1780" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-193" value="MICROBATCH" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/material-inspired-2/16/27-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2119" y="-730" width="42" height="42" as="geometry" />
+          <mxGeometry x="-281" y="-1610" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-196" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;ProjectAccountingDailyBalanceService" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" vertex="1" parent="1">
           <mxGeometry x="1860" y="489.5" width="78" height="78" as="geometry" />
