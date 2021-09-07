@@ -1,62 +1,57 @@
 package br.com.leonardozv.ledger.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.lmax.disruptor.EventFactory;
 
 public class JournalEntryCreatedEvent {
 
+    private String topic;
+    private int partition;
     private Long offset;
-    private String accountId;
-    private Double credit;
-    private Double debit;
-    private Double movement;
+
+    @JsonProperty("data")
+    private JournalEntryCreatedEventData data;
 
     public JournalEntryCreatedEvent() {
 
     }
 
-    public JournalEntryCreatedEvent(Long offset, String accountId, Double credit, Double debit, Double movement) {
+    public JournalEntryCreatedEvent(JournalEntryCreatedEventData data) {
+        this.data = data;
+    }
+
+    public String getTopic() {
+        return topic;
+    }
+
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
+
+    public int getPartition() {
+        return partition;
+    }
+
+    public void setPartition(int partition) {
+        this.partition = partition;
+    }
+
+    public Long getOffset() {
+        return offset;
+    }
+
+    public void setOffset(Long offset) {
         this.offset = offset;
-        this.accountId = accountId;
-        this.credit = credit;
-        this.debit = debit;
-        this.movement = movement;
+    }
+
+    public JournalEntryCreatedEventData getData() {
+        return data;
+    }
+
+    public void setData(JournalEntryCreatedEventData data) {
+        this.data = data;
     }
 
     public final static EventFactory EVENT_FACTORY = () -> new JournalEntryCreatedEvent();
 
-    public Long getOffset() { return offset;  }
-
-    public void setOffset(Long offset) { this.offset = offset; }
-
-    public String getAccountId() {
-        return accountId;
-    }
-
-    public void setAccountId(String accountId) {
-        this.accountId = accountId;
-    }
-
-    public Double getCredit() {
-        return credit;
-    }
-
-    public void setCredit(Double credit) {
-        this.credit = credit;
-    }
-
-    public Double getDebit() {
-        return debit;
-    }
-
-    public void setDebit(Double debit) {
-        this.debit = debit;
-    }
-
-    public Double getMovement() {
-        return movement;
-    }
-
-    public void setMovement(Double movement) {
-        this.movement = movement;
-    }
 }

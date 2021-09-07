@@ -17,9 +17,9 @@ public class LedgerPostingService {
 
         Map<String, JournalEntryCreatedStats> statsPerAccountId = lista
                 .parallelStream()
-                .collect(groupingBy(JournalEntryCreatedEvent::getAccountId, collectingAndThen(toList(), list -> {
-                    LongSummaryStatistics offsetSummary = list.parallelStream().collect(summarizingLong(JournalEntryCreatedEvent::getOffset));
-                    Double totalMovement = list.parallelStream().collect(summingDouble(JournalEntryCreatedEvent::getMovement));
+                .collect(groupingBy(e -> e.getData().getAccountId(), collectingAndThen(toList(), list -> {
+                    LongSummaryStatistics offsetSummary = list.parallelStream().collect(summarizingLong(e -> e.getOffset()));
+                    Double totalMovement = list.parallelStream().collect(summingDouble(e -> e.getData().getMovementAmount()));
                     return new JournalEntryCreatedStats(offsetSummary, totalMovement);
                 })));
 

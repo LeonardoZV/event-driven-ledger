@@ -1,11 +1,12 @@
 package br.com.leonardozv.ledger.consumers;
 
 import br.com.leonardozv.ledger.models.JournalEntryCreatedEvent;
-import br.com.leonardozv.ledger.serializers.CustomKafkaAvroDeserializer;
 import br.com.leonardozv.ledger.services.LedgerPostingService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.confluent.kafka.serializers.GenericContainerWithVersion;
+import io.confluent.kafka.serializers.KafkaAvroDeserializer;
 import io.confluent.kafka.serializers.KafkaAvroDeserializerConfig;
+import org.apache.avro.generic.GenericRecord;
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.config.SaslConfigs;
@@ -16,6 +17,7 @@ import org.springframework.util.StopWatch;
 
 import java.time.Duration;
 import java.util.*;
+import java.util.stream.StreamSupport;
 
 @Service
 public class JournalEntryCreatedEventKafkaConsumer {
@@ -30,7 +32,7 @@ public class JournalEntryCreatedEventKafkaConsumer {
         this.createConsumer();
     }
 
-    private Consumer<Long, GenericContainerWithVersion> createConsumer() {
+    private Consumer<Long, GenericRecord> createConsumer() {
 
         final Properties props = new Properties();
 
@@ -48,13 +50,13 @@ public class JournalEntryCreatedEventKafkaConsumer {
 //        props.put(ConsumerConfig.FETCH_MAX_WAIT_MS_CONFIG, 30000);
         props.put(ConsumerConfig.RECEIVE_BUFFER_CONFIG, -1);
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
-        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, CustomKafkaAvroDeserializer.class.getName());
+        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, KafkaAvroDeserializer.class.getName());
 
         props.put(KafkaAvroDeserializerConfig.SCHEMA_REGISTRY_URL_CONFIG, "https://psrc-4j1d2.westus2.azure.confluent.cloud");
         props.put(KafkaAvroDeserializerConfig.BASIC_AUTH_CREDENTIALS_SOURCE, "USER_INFO");
         props.put(KafkaAvroDeserializerConfig.USER_INFO_CONFIG, "2BEQE2KDNBJGDH2Y:8nixndjUyjXqTJoXnm3X3GwLZPz5F8umq74/g9ioG2mIi4lm0CWF1nUAf8deIFbP");
 
-        final Consumer<Long, GenericContainerWithVersion> consumer = new KafkaConsumer<>(props);
+        final Consumer<Long, GenericRecord> consumer = new KafkaConsumer<>(props);
 
         consumer.subscribe(Collections.singletonList("accounting-journal-entry-created"));
 
@@ -64,67 +66,61 @@ public class JournalEntryCreatedEventKafkaConsumer {
 
     public void runConsumer() throws InterruptedException {
 
-        final Consumer<Long, GenericContainerWithVersion> consumer = createConsumer();
-
-//        ThreadFactory threadFactory = DaemonThreadFactory.INSTANCE;
-//
-//        WaitStrategy waitStrategy = new BusySpinWaitStrategy();
-//
-//        Disruptor<AccountingJournalEntryCreatedEvent> disruptor = new Disruptor<>(AccountingJournalEntryCreatedEvent.EVENT_FACTORY, 16777216, threadFactory, ProducerType.SINGLE, waitStrategy);
-//
-//        disruptor.handleEventsWith(ProcessorConsumer.getEventHandler());
-//
-//        RingBuffer<AccountingJournalEntryCreatedEvent> ringBuffer = disruptor.start();
+        final Consumer<Long, GenericRecord> consumer = createConsumer();
 
         long totalStartTime = System.nanoTime();
 
         while (true) {
 
-            final ConsumerRecords<Long, GenericContainerWithVersion> consumerRecords = consumer.poll(Duration.ofSeconds(100));
+            final ConsumerRecords<Long, GenericRecord> consumerRecords = consumer.poll(Duration.ofSeconds(10));
 
             if (consumerRecords.count() > 0) {
 
                 System.out.println("Quantidade de eventos no microbatch: " + consumerRecords.count());
 
-                List<JournalEntryCreatedEvent> lista = new ArrayList<>();
+                List<JournalEntryCreatedEvent> lista = Collections.synchronizedList(new ArrayList <>());
 
-                consumerRecords.forEach(record -> {
-                    JournalEntryCreatedEvent event = new JournalEntryCreatedEvent(1L, "100", 1.0, 0.0, 1.0);
-                    lista.add(event);
+                StopWatch swConversaoObjeto = new StopWatch();
+
+                swConversaoObjeto.start();
+
+                StreamSupport.stream(consumerRecords.spliterator(), true).forEach(record -> {
+
+                    try {
+
+                        JournalEntryCreatedEvent event = mapper.readValue(record.value().toString(), JournalEntryCreatedEvent.class);
+
+                        event.setTopic(record.topic());
+                        event.setPartition(record.partition());
+                        event.setOffset(record.offset());
+
+                        lista.add(event);
+
+                    } catch (JsonProcessingException e) {
+                        e.printStackTrace();
+                    }
+
                 });
 
-                StopWatch swProcessamento = new StopWatch();
+                swConversaoObjeto.stop();
 
-                swProcessamento.start();
+                System.out.println("Tempo de execucao da conversão para objeto em milisegundos: " + swConversaoObjeto.getTotalTimeMillis());
+
+                StopWatch swSumarizacao = new StopWatch();
+
+                swSumarizacao.start();
 
                 ledgerPostingService.createJournalEntryCreatedStats(lista);
 
-                swProcessamento.stop();
+                swSumarizacao.stop();
 
                 double totalEndTime = (System.nanoTime()-totalStartTime) / 1e6;
 
-                System.out.println("Tempo de execucao do processamento do microbatch em milisegundos: " + swProcessamento.getTotalTimeMillis());
+                System.out.println("Tempo de execucao da sumarização em milisegundos: " + swSumarizacao.getTotalTimeMillis());
 
                 System.out.println("Tempo de execucao total em milisegundos: " + totalEndTime);
 
             }
-
-//            consumerRecords.forEach(record -> {
-//
-//                long sequenceId = ringBuffer.next();
-//
-//                AccountingJournalEntryCreatedEvent ringBufferEvent = ringBuffer.get(sequenceId);
-//
-//                ringBufferEvent.setAccountId("100");
-//                ringBufferEvent.setCredit(1.0);
-//                ringBufferEvent.setDebit(0.0);
-//                ringBufferEvent.setMovement(1.0);
-//
-//                ringBuffer.publish(sequenceId);
-//
-////                System.out.printf("Consumer Record:(%d, %s, %d, %d)\n", record.key(), record.value().container().toString(), record.partition(), record.offset());
-//
-//            });
 
 //            consumer.commitAsync();
 
