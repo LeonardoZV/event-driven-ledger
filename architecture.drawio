@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T04:35:48.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="OqQWePLfn5nvgqzx8f8c" version="15.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-09-07T04:36:16.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Dpp8B_looqiLsQekE7Yy" version="15.0.6" type="github" pages="4">
   <diagram id="um2IqamBtv0vqhJoDUG6" name="Summary">
     <mxGraphModel dx="3769" dy="3460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
             <mxPoint x="99" y="-1723" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y3bGvu8j9N1HJXOs36G8-151" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;journal_entry_id&quot;: {UUID}&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;error_code&quot;: &quot;validation-account-001&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;error_message&quot;: &quot;Account not found&quot;&lt;br&gt;}" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="2LelLOpR1p7l8fURc_7i-72">
+        <mxCell id="Y3bGvu8j9N1HJXOs36G8-151" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;journal_entry_id&quot;: {UUID}&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;error_code&quot;: &quot;validation-account-001&quot;,&lt;br&gt;&amp;nbsp; &amp;nbsp;&quot;error_message&quot;: &quot;Invalid Account&quot;&lt;br&gt;}" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="2LelLOpR1p7l8fURc_7i-72">
           <mxGeometry x="-0.3009" relative="1" as="geometry">
             <mxPoint x="-109" y="27" as="offset" />
           </mxGeometry>
