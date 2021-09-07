@@ -21,7 +21,7 @@ public class LedgerPostingApplication implements CommandLineRunner {
 	}
 
 	@Override
-	public void run(String... args) throws InterruptedException {
+	public void run(String... args) {
 
 		kafkaConsumer.runConsumer();
 

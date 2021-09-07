@@ -64,7 +64,7 @@ public class JournalEntryCreatedEventKafkaConsumer {
 
     }
 
-    public void runConsumer() throws InterruptedException {
+    public void runConsumer() {
 
         final Consumer<Long, GenericRecord> consumer = createConsumer();
 

@@ -2,8 +2,6 @@ package br.com.leonardozv.ledger.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.time.LocalDate;
-
 public class JournalEntryCreatedEventData {
 
     @JsonProperty("accounting_date")

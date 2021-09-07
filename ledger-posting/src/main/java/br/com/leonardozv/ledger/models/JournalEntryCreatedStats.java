@@ -5,10 +5,14 @@ import java.util.LongSummaryStatistics;
 public class JournalEntryCreatedStats {
 
     private LongSummaryStatistics offsetSummary;
+    private Double totalDebits;
+    private Double totalCredits;
     private Double totalMovement;
 
-    public JournalEntryCreatedStats(LongSummaryStatistics offsetSummary, Double totalMovement) {
+    public JournalEntryCreatedStats(LongSummaryStatistics offsetSummary, Double totalDebits, Double totalCredits, Double totalMovement) {
         this.offsetSummary = offsetSummary;
+        this.totalDebits = totalDebits;
+        this.totalCredits = totalCredits;
         this.totalMovement = totalMovement;
     }
 
@@ -18,6 +22,22 @@ public class JournalEntryCreatedStats {
 
     public void setOffsetSummary(LongSummaryStatistics offsetSummary) {
         this.offsetSummary = offsetSummary;
+    }
+
+    public Double getTotalDebits() {
+        return totalDebits;
+    }
+
+    public void setTotalDebits(Double totalDebits) {
+        this.totalDebits = totalDebits;
+    }
+
+    public Double getTotalCredits() {
+        return totalCredits;
+    }
+
+    public void setTotalCredits(Double totalCredits) {
+        this.totalCredits = totalCredits;
     }
 
     public Double getTotalMovement() {

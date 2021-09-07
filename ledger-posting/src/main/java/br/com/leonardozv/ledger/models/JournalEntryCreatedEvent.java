@@ -1,7 +1,6 @@
 package br.com.leonardozv.ledger.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.lmax.disruptor.EventFactory;
 
 public class JournalEntryCreatedEvent {
 
@@ -51,7 +50,5 @@ public class JournalEntryCreatedEvent {
     public void setData(JournalEntryCreatedEventData data) {
         this.data = data;
     }
-
-    public final static EventFactory EVENT_FACTORY = () -> new JournalEntryCreatedEvent();
 
 }
