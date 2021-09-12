@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-11T12:51:00.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="wqpUdTYEbG6fEvuapuUD" version="15.1.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-12T12:43:49.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="9huc5hsZLR-R8TAFewDP" version="15.1.2" type="github" pages="6">
   <diagram id="um2IqamBtv0vqhJoDUG6" name="Summary">
     <mxGraphModel dx="2508" dy="2979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="zSsu7aAkXTF9ZLtZlxKz-0" value="&lt;h1&gt;Regras de Validação de Saldo de Contas&lt;/h1&gt;&lt;p&gt;Contas de integração podem ter saldo durante o dia, porém precisam terminar o dia zeradas.&lt;/p&gt;&lt;p&gt;Determinadas contas podem aumentar ou diminuir o saldo durante o mês, porém precisam terminar o mês com saldo igual ou maior que o mês anterior.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="-y1XJdfJ8iIM56C132Xd-1" vertex="1">
           <mxGeometry x="-760" y="-1668" width="840" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="zSsu7aAkXTF9ZLtZlxKz-1" value="&lt;h1&gt;Features&lt;/h1&gt;&lt;p&gt;Plano de contas em estrutura de árvore, independente do tipo de conta.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Lançamentos automáticos.&lt;/p&gt;&lt;p&gt;Lançamentos retroativos, inclusive com reabertura de balanço.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Estorno de lote de lançamentos.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;span&gt;Visualização das movimentações quase em tempo real.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;Visualização&amp;nbsp;&lt;span&gt;dos saldos ao final do cálculo, que poderá ser solicitado.&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;span&gt;Multi gaap. BRGAAP (Base) + IFRS (Delta) ou Base + BRGAAP (Delta) + IFRS (Delta) ou BRGAAP (Base) + IFRS (Base)?&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="-y1XJdfJ8iIM56C132Xd-1" vertex="1">
+        <mxCell id="zSsu7aAkXTF9ZLtZlxKz-1" value="&lt;h1&gt;Features&lt;/h1&gt;&lt;p&gt;Plano de contas em estrutura de árvore, independente do tipo de conta.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Lançamentos automáticos.&lt;/p&gt;&lt;p&gt;Lançamentos retroativos, inclusive com reabertura de balanço.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Estorno de lote de lançamentos.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;span&gt;Visualização das movimentações quase em tempo real.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;Visualização&amp;nbsp;&lt;span&gt;dos saldos ao final do cálculo, que poderá ser solicitado.&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;span&gt;Multi gaap. Continuar BRGAAP (Base) + IFRS (Diferença)?&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="-y1XJdfJ8iIM56C132Xd-1" vertex="1">
           <mxGeometry x="-760" y="-2200" width="730" height="230" as="geometry" />
         </mxCell>
         <mxCell id="zSsu7aAkXTF9ZLtZlxKz-2" value="&lt;h1&gt;Premissas&lt;/h1&gt;&lt;p&gt;Consistência eventual.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="-y1XJdfJ8iIM56C132Xd-1" vertex="1">
@@ -179,7 +179,7 @@
       <root>
         <mxCell id="wu2W2mh4okptVCm65C5e-0" />
         <mxCell id="wu2W2mh4okptVCm65C5e-1" parent="wu2W2mh4okptVCm65C5e-0" />
-        <mxCell id="YSIze5ANshrGSM31zImy-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="wu2W2mh4okptVCm65C5e-1">
+        <mxCell id="YSIze5ANshrGSM31zImy-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="wu2W2mh4okptVCm65C5e-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-550" y="-1580" as="targetPoint" />
             <mxPoint x="-550" y="-1703" as="sourcePoint" />
@@ -189,7 +189,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSIze5ANshrGSM31zImy-1" value="SYNC PUT /journal/entries&lt;br&gt;SYNC PUT /journal/rules&lt;br&gt;SYNC GET /journal/rules&lt;br&gt;SYNC GET /journal/rules/{id}" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YSIze5ANshrGSM31zImy-0">
+        <mxCell id="YSIze5ANshrGSM31zImy-1" value="SYNC PUT /journal/entries&lt;br&gt;SYNC PUT /journal/rules&lt;br&gt;SYNC GET /journal/rules&lt;br&gt;SYNC GET /journal/rules/{id}" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="YSIze5ANshrGSM31zImy-0" vertex="1" connectable="0">
           <mxGeometry x="-0.3289" y="-3" relative="1" as="geometry">
             <mxPoint x="-155" y="15" as="offset" />
           </mxGeometry>
@@ -198,7 +198,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sSMh7Mj8uq1PbPDicRrX" name="Ledger Posting Service">
-    <mxGraphModel dx="4596" dy="3460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3683" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1016,11 +1016,14 @@
         <mxCell id="CrSMlSoLfHYtYc_QHHbr-212" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;Apache Kafka&lt;br&gt;&lt;/b&gt;business-event&lt;br&gt;id or aggregateid as key&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" parent="1" vertex="1">
           <mxGeometry x="-1550" y="-1881" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CRrzgmn-tKZhH9zxhpsh-1" value="&lt;b&gt;PartitionKey:&lt;br&gt;&lt;/b&gt;ACCOUNTINGDATE#COMPANYID#GAAPID#BALANCEVERSIONID&lt;br&gt;&lt;b&gt;SortKey:&lt;br&gt;&lt;/b&gt;ACCOUNTID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-1790" width="380" height="57" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="-tVDbSHnEtbv67EM6nDX" name="Ledger Balance Service">
-    <mxGraphModel dx="2942" dy="3460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2029" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="YYrJkvh2Oif2tsE4975U-0" />
         <mxCell id="YYrJkvh2Oif2tsE4975U-1" parent="YYrJkvh2Oif2tsE4975U-0" />
@@ -1033,7 +1036,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BBTBYRgdx1ARahLPPrix-1" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;SYNC&amp;nbsp; &amp;nbsp;GET&amp;nbsp; &amp;nbsp; /ledger/balances/versions/status&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;ASYNC POST /ledger/balances/versions/lock&lt;br&gt;ASYNC&amp;nbsp;POST /ledger/balances/versions/unlock" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="BBTBYRgdx1ARahLPPrix-0" vertex="1" connectable="0">
+        <mxCell id="BBTBYRgdx1ARahLPPrix-1" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;GET&amp;nbsp; &amp;nbsp; /ledger/balances/versions/status&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;POST /ledger/balances/versions/lock&lt;br&gt;POST /ledger/balances/versions/unlock" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="BBTBYRgdx1ARahLPPrix-0" vertex="1" connectable="0">
           <mxGeometry x="0.1597" y="2" relative="1" as="geometry">
             <mxPoint x="-98" y="-41" as="offset" />
           </mxGeometry>
@@ -1052,6 +1055,11 @@
             <mxPoint x="-31" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="iiKrku5vip8f0cSnCNvf-2" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp;period: &quot;2017-12&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp;company_id: ,&lt;br&gt;&amp;nbsp; &amp;nbsp;gaap_id: ,&lt;br&gt;&amp;nbsp; &amp;nbsp;balance_version_id:&amp;nbsp;&lt;br&gt;}" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BBTBYRgdx1ARahLPPrix-2">
+          <mxGeometry x="0.4882" y="-1" relative="1" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BBTBYRgdx1ARahLPPrix-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="YYrJkvh2Oif2tsE4975U-1" source="BBTBYRgdx1ARahLPPrix-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="624" y="-1720" as="sourcePoint" />
@@ -1062,6 +1070,15 @@
         <mxCell id="t2cLJUALlcstUvoFRYv9-3" value="(2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="BBTBYRgdx1ARahLPPrix-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0539" y="-1" relative="1" as="geometry">
             <mxPoint x="15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iiKrku5vip8f0cSnCNvf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="YYrJkvh2Oif2tsE4975U-1" source="BBTBYRgdx1ARahLPPrix-68" target="iiKrku5vip8f0cSnCNvf-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="-1720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="890" y="-1700" />
+              <mxPoint x="910" y="-1700" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BBTBYRgdx1ARahLPPrix-4" value="&lt;b&gt;AWS ECS&lt;/b&gt;&lt;br&gt;LedgerBalanceService" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;" parent="YYrJkvh2Oif2tsE4975U-1" vertex="1">
@@ -1186,7 +1203,7 @@
             <mxPoint x="4" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BBTBYRgdx1ARahLPPrix-66" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;balance-version-locked&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;balance-version&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;-unlocked&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" parent="YYrJkvh2Oif2tsE4975U-1" vertex="1">
+        <mxCell id="BBTBYRgdx1ARahLPPrix-66" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;balance-locked&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;balance-&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;unlocked&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" parent="YYrJkvh2Oif2tsE4975U-1" vertex="1">
           <mxGeometry x="710" y="-1617.75" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BBTBYRgdx1ARahLPPrix-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="YYrJkvh2Oif2tsE4975U-1" source="BBTBYRgdx1ARahLPPrix-68" target="BBTBYRgdx1ARahLPPrix-63" edge="1">
@@ -1320,6 +1337,12 @@
         </mxCell>
         <mxCell id="f16_8uQnBPaC_uSZGxWT-0" value="&lt;b&gt;AWS S3&lt;/b&gt;&lt;br&gt;Bucket Ledger Accounts&lt;br&gt;Parquet Format&lt;br&gt;Partitioned by AccountId" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="YYrJkvh2Oif2tsE4975U-1" vertex="1">
           <mxGeometry x="1290" y="-2080" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="iiKrku5vip8f0cSnCNvf-0" value="&lt;b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Kafka&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px&quot;&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;balance-calculated&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;" vertex="1" parent="YYrJkvh2Oif2tsE4975U-1">
+          <mxGeometry x="880" y="-1617.75" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iiKrku5vip8f0cSnCNvf-3" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp;period: &quot;2017-12&quot;&lt;br&gt;&amp;nbsp; &amp;nbsp;company_id: ,&lt;br&gt;&amp;nbsp; &amp;nbsp;gaap_id: ,&lt;br&gt;&amp;nbsp; &amp;nbsp;balance_version_id:&amp;nbsp;&lt;br&gt;}" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YYrJkvh2Oif2tsE4975U-1">
+          <mxGeometry x="860" y="-1670.0044444444443" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
